@@ -1,0 +1,32 @@
+         .bg-primary {
+          background: #005FAF!important;
+        }
+
+        body {
+          background: #F0F3F4;
+        }
+
+        .dashboard {
+          min-height: 52.5rem;
+          height: auto;
+          padding: 0;
+        }
+
+        .dashboard a {
+            display: block;
+            color: #fff;
+            padding: 1rem;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .dashboard a:hover {
+            background: #017DD3;
+        }
+        
+        .formulario {
+            -webkit-box-shadow: 0px 4px 9px -3px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 4px 9px -3px rgba(0,0,0,0.75);
+            box-shadow: 0px 4px 9px -3px rgba(0,0,0,0.75);
+        }
+

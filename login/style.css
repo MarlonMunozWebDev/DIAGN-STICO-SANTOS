@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  margin: 3rem 0;
+  font-family: 'Poppins',sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.imagen {
+  width: 20rem;
+  height: 30rem;
+  background-image: url(login.jpg);
+  background-size: cover;
+}
+
+.imagen-efecto {
+  width: 100%;
+  height: 100%;
+  background: #017DD3;
+  opacity: 0.7;
+}
+
+.imagen-efecto h2 {
+  color: #fff;
+  font-size: 3rem;
+  margin: 0;
+  padding: 2rem 3rem;
+}
+
+.formulario {
+  box-sizing: border-box;
+  width: 35rem;
+  height: 33rem;
+  padding: 3rem;
+  transform: translateY(0.3rem);
+  border: 2px solid black;
+}
+
+.formulario input {
+  width: 100%;
+  height: 1.5rem;
+  margin-bottom: 2rem;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+.formulario p {
+  color: grey;
+  margin-bottom: 0.5rem;
+}
+
+.formulario button {
+  font-family: 'Poppins',sans-serif;
+  background: #017DD3;
+  color: #fff;
+  padding: 0.5rem 3rem;
+  border: none;
+  border-radius: 15px;
+}
+
+.formulario a {
+  text-decoration: none;
+  float: right;
+}
